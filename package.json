@@ -27,7 +27,7 @@
     {
       "name": "Ben Tesser",
       "url": "http://megabyteamerica.com"
-    },
+    }
   ],
   "dependencies": {
     "chalk": "^1.0.0",
