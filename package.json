@@ -1,5 +1,5 @@
 {
-  "name": "github-search",
+  "name": "github-repository-search",
   "version": "0.0.1",
   "description": "Search github repositories in node with cli",
   "main": "index.js",
