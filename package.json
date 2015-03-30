@@ -1,19 +1,47 @@
 {
   "name": "github-search",
-  "version": "1.0.0",
-  "description": "Search github repositories in node",
+  "version": "0.0.1",
+  "description": "Search github repositories in node with cli",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "scripts": {},
+  "author": {
+	"name": "Ben Tesser <ben@megabyteamerica.com>"	
   },
-  "author": "Ben Tesser <btesser@gmail.com>",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/btesser/node-github-search.git"
+  }
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/gruntjs/grunt-cli/blob/master/LICENSE-MIT"
+    }
+  ],
   "bin": {
 	  "github-search": "bin/github-search"
   },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "contributors": [
+    {
+      "name": "Ben Tesser",
+      "url": "http://megabyteamerica.com"
+    },
+  ],
   "dependencies": {
     "chalk": "^1.0.0",
     "https": "^1.0.0",
     "keypress": "^0.2.1"
-  }
+  },
+  "_npmUser": {
+    "name": "btesser",
+    "email": "ben@megabyteamerica.com"
+  },
+  "maintainers": [
+    {
+      "name": "btesser",
+      "email": "ben@megabyteamerica.com"
+    }
+  ]
 }
