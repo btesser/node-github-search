@@ -1,0 +1,19 @@
+{
+  "name": "github-search",
+  "version": "1.0.0",
+  "description": "Search github repositories in node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ben Tesser <btesser@gmail.com>",
+  "license": "ISC",
+  "bin": {
+	  "github-search": "bin/github-search"
+  },
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "https": "^1.0.0",
+    "keypress": "^0.2.1"
+  }
+}
